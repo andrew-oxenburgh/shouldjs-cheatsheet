@@ -1,26 +1,28 @@
 {
-  "name"            : "shouldjs-cheatsheet" ,
-  "version"         : "1.0.0" ,
-  "description"     : "demonstrate various aspects of shouldjs" ,
-  "keywords"        : [
-    "shouldjs" ,
-    "should" ,
-    "cheatsheet" ,
+  "name": "shouldjs-cheatsheet",
+  "version": "1.0.0",
+  "description": "demonstrate various aspects of shouldjs",
+  "keywords": [
+    "shouldjs",
+    "should",
+    "cheatsheet",
     "tips"
-  ] ,
-  "directories"     : {
-    "test" : "test"
-  } ,
-  "dependencies"    : {
-    "should" : "^8.2.2"
-  } ,
-  "devDependencies" : {} ,
-  "scripts"         : {
-    "test" : "mocha test"
-  } ,
-  "jscsConfig"      : {
-    "preset" : "google"
-  } ,
-  "author"          : "Andrew Oxenburgh" ,
-  "license"         : "ISC"
+  ],
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "should": "^8.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha test",
+    "qa":"jscs test && npm test"
+  },
+  "jscsConfig": {
+    "preset": "google"
+  },
+  "issues": "https://github.com/andrew-oxenburgh/shouldjs-cheatsheet/issues",
+  "author": "Andrew Oxenburgh",
+  "license": "ISC"
 }
