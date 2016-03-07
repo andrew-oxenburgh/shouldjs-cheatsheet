@@ -1,0 +1,18 @@
+{
+  "name": "shouldjs-cheatsheet",
+  "version": "1.0.0",
+  "description": "demonstrate various aspects of shouldjs",
+  "keywords":["shouldjs", "should", "cheatsheet", "tips"],
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "should": "^8.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha test"
+  },
+  "author": "Andrew Oxenburgh",
+  "license": "ISC"
+}
